@@ -1,24 +1,18 @@
-# README
+#POSTMAN
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+POST localhost:3000/articles
+{
+	"title": "hola",
+	"body": "chao"
+}
 
-Things you may want to cover:
+DELETE localhost:3000/articles/5
+{
+  "id" : 6
+}
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+PATCH localhost:3000/articles/6
+{
+	"title": "titulo",
+	"body": "body"
+}
